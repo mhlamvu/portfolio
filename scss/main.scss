@@ -18,22 +18,6 @@ body {
 
 
 
-.menu-nav {
-    height: 60px;
-    display: flex;
-
-    li {
-        padding: 2rem;
-        font-size: 1.3rem;
-        font-weight: bold;
-    }
-
-    .not-main {
-        background: darken($primary-color);
-    }
-
-}
-
 // Headings
 h1,
 h2,
@@ -60,6 +44,40 @@ header {
     position: fixed;
     z-index: 2;
     width: 100%;
+    height: 60px;
+}
+
+.not-main {
+    background-color: #333;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    z-index: 100;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20px;
+
+        li {
+            line-height: 30px;
+            font-size: 1.4rem;
+
+            .brand-icon {
+                font-weight: bold;
+            }
+
+            a {
+                display: block;
+                height: 100%;
+                padding: 0 10px;
+            }
+        }
+    }
 }
 
 main {
