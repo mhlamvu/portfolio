@@ -3,6 +3,7 @@
 
 * {
     box-sizing: border-box;
+    list-style: none;
 }
 
 body {
@@ -13,6 +14,24 @@ body {
     margin: 0;
     font-family: 'Roboto Mono', monospace;
     line-height: 1.5;
+}
+
+
+
+.menu-nav {
+    height: 60px;
+    display: flex;
+
+    li {
+        padding: 2rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    .not-main {
+        background: darken($primary-color);
+    }
+
 }
 
 // Headings

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  list-style: none; }
 
 body {
   background: #444;
@@ -22,6 +23,14 @@ body {
       height: 100%;
       z-index: -1;
       background: rgba(68, 68, 68, 0.3); }
+
+.menu-nav {
+  height: 60px;
+  display: flex; }
+  .menu-nav li {
+    padding: 2rem;
+    font-size: 1.3rem;
+    font-weight: bold; }
 
 h1,
 h2,
