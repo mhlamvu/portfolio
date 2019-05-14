@@ -12,4 +12,7 @@
     "tar": ">=4.4.2",
     "node-sass": "^4.11.0"
   }
+  "devDependencies": {
+  "tar": ">=4.4.2"
+}
 }
